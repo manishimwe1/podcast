@@ -15,9 +15,7 @@ export default function Home() {
 				<h1 className='text-20 font-bold text-white-1'>
 					Trending podcaster
 				</h1>
-				{/* {tasks?.map(({ _id, text }) => (
-					<div key={_id}>{text}</div>
-				))} */}
+
 				<div className='podcast_grid'>
 					{podcastData.map(
 						({
